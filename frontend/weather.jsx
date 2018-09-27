@@ -52,9 +52,14 @@ class Weather extends React.Component {
       const weather = this.state.weather;
       const temp = (weather.main.temp - 273.15) * 1.8 + 32;
 
-      content = <div className="weather-content"><p>{weather.name}</p><p>{temp.toFixed(1)}°F</p></div>;
+      content = <div className="weather-content">
+                    <p className="city">{weather.name}</p>
+                    <p className="temp">{temp.toFixed(1)}°F</p>
+                </div>;
     } else {
-      content = <div className="loading">loading weather...</div>;
+      content = <div className="weather-content loading">
+                  <p>loading weather...</p>
+                </div>;
     }
 
     return (

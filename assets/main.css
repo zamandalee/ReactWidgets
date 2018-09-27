@@ -47,6 +47,32 @@ h2 {
 	font-size: 1.8em;
 }
 
+#content {
+	display: block;
+	margin: 6vh 4vw;
+}
+
+.widget {
+	width: 65%;
+	margin-bottom: 3vh;
+}
+
+/* weather */
+.weather-content {
+	padding: 2vh 5vw;
+	border: 1px solid #898989;
+	border-radius: 3px;
+	background: #bae0bc;
+}
+
+.weather-content p {
+	font-size: 1.4em;
+}
+
+.temp {
+	font-size: 1.8em !important;
+}
+
 /* tabs */
 .headers-ul {
 	display: flex;
@@ -84,6 +110,8 @@ h2 {
 	border-left: 1px solid #898989;
 	border-right: 1px solid #898989;
 	border-bottom: 1px solid #898989;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
 	background: lightblue;
 
 	font-size: 1.4em;
@@ -92,21 +120,10 @@ h2 {
 
 /* clock */
 
-#content {
-	display: block;
-	margin: 6vh 4vw;
-}
-
-.widget {
-	width: 65%;
-	margin-bottom: 3vh;
-}
-
 .clock-content {
-  margin: 7px 0;
-  padding: 10px 20px;
+  padding: 2vh 5vw;
   border: 1px solid #898989;
-	border-radius: 2px;
+	border-radius: 3px;
   background: #ffc363;
   color: #3d3d3d#3d3d3d;
 }
