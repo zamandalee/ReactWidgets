@@ -29,10 +29,9 @@ class Clock extends React.Component {
     hours = (hours < 10) ? `0${hours}` : hours;
     minutes = (minutes < 10) ? `0${minutes}` : minutes;
     seconds = (seconds < 10) ? `0${seconds}` : seconds;
-    // console.log(`0${hours}`);
 
     return (
-      <div className="clock-widget">
+      <div className="clock widget">
         <h1>Clock</h1>
         <div className="clock-content">
           <div>
@@ -45,7 +44,6 @@ class Clock extends React.Component {
           </div>
         </div>
       </div>
-
     );
   }
 }

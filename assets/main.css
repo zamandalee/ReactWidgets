@@ -1,11 +1,69 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 2;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* general */
+h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #515151;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
 /* clock */
 
+#content {
+	display: block;
+	margin: 6vh 4vw;
+}
+
+.widget {
+	width: 65%;
+}
+
 .clock-content {
-  margin: 7px;
+  margin: 7px 0;
   padding: 10px 20px;
-  border: 1px solid black;
+  border: 1px solid #898989;
+	border-radius: 2px;
   background: orange;
-  /* font-family:  */
   color: white;
 }
 
