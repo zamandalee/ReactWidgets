@@ -32,3 +32,28 @@ class Tabs extends React.Component {
 }
 
 export default Tabs;
+
+
+class Headers extends React.Component {
+  render() {
+    const selectedIdx = this.props.selectedIdx;
+
+    const headers = this.props.content.map( (tabObj, idx) => {
+      const className = (idx === this.props.selectedIdx) ? 'active' : '';
+
+      return (
+        <li key={idx}
+            className={className}
+            onClick={() => this.props.selectTab(idx)}>
+            {tabObj.title}
+        </li>
+      );
+    });
+
+    return (
+      <ul>
+        {headers}
+      </ul>
+    );
+  }
+}
