@@ -63,20 +63,31 @@ h2 {
 	border-top-right-radius: 8px;
 
 	text-align: center;
-	font-size: 1.3em;
-	color: gray;
+	font-size: 1.6em;
+	color: darkgray;
+}
+
+.headers-ul li:hover {
+	cursor: pointer;
 }
 
 .active {
 	color: #515151 !important;
+	border-bottom: 1px solid lightblue !important;
 }
 
 .tabs-content article {
 	height: 17vh;
+	padding: 5vh 5vw;
+	box-sizing: border-box;
+
 	border-left: 1px solid #515151;
 	border-right: 1px solid #515151;
 	border-bottom: 1px solid #515151;
 	background: lightblue;
+
+	font-size: 1.4em;
+	text-align: center;
 }
 
 /* clock */
