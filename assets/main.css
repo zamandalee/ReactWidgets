@@ -1,0 +1,16 @@
+/* clock */
+
+.clock-content {
+  margin: 7px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: orange;
+  /* font-family:  */
+  color: white;
+}
+
+.clock-content div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
