@@ -47,6 +47,38 @@ h2 {
 	font-size: 1.8em;
 }
 
+/* tabs */
+.headers-ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headers-ul li {
+	width: 33%;
+	background: lightblue;
+
+	border: 1px solid #515151;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
+	text-align: center;
+	font-size: 1.3em;
+	color: gray;
+}
+
+.active {
+	color: #515151 !important;
+}
+
+.tabs-content article {
+	height: 17vh;
+	border-left: 1px solid #515151;
+	border-right: 1px solid #515151;
+	border-bottom: 1px solid #515151;
+	background: lightblue;
+}
+
 /* clock */
 
 #content {
@@ -56,6 +88,7 @@ h2 {
 
 .widget {
 	width: 65%;
+	margin-bottom: 3vh;
 }
 
 .clock-content {
