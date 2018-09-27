@@ -23,7 +23,7 @@ class Weather extends React.Component {
   }
 
   getWeather(location) {
-    let url = 'api.openweathermap.org/data/2.5/weather?';
+    let url = 'http://api.openweathermap.org/data/2.5/weather?';
     const params = {
       lat: location.coords.latitude,
       lon: location.coords.longitude
