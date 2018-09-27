@@ -40,7 +40,7 @@ ol, ul {
 h1 {
 	font-size: 2em;
 	text-transform: uppercase;
-	color: #515151;
+	color: #3d3d3d#3d3d3d;
 }
 
 h2 {
@@ -58,13 +58,13 @@ h2 {
 	width: 33%;
 	background: lightblue;
 
-	border: 1px solid #515151;
+	border: 1px solid #898989;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 
 	text-align: center;
 	font-size: 1.6em;
-	color: darkgray;
+	color: #5b5b5b;
 }
 
 .headers-ul li:hover {
@@ -72,7 +72,7 @@ h2 {
 }
 
 .active {
-	color: #515151 !important;
+	color: #3d3d3d !important;
 	border-bottom: 1px solid lightblue !important;
 }
 
@@ -81,9 +81,9 @@ h2 {
 	padding: 5vh 5vw;
 	box-sizing: border-box;
 
-	border-left: 1px solid #515151;
-	border-right: 1px solid #515151;
-	border-bottom: 1px solid #515151;
+	border-left: 1px solid #898989;
+	border-right: 1px solid #898989;
+	border-bottom: 1px solid #898989;
 	background: lightblue;
 
 	font-size: 1.4em;
@@ -107,8 +107,8 @@ h2 {
   padding: 10px 20px;
   border: 1px solid #898989;
 	border-radius: 2px;
-  background: orange;
-  color: white;
+  background: #ffc363;
+  color: #3d3d3d#3d3d3d;
 }
 
 .clock-content div {
